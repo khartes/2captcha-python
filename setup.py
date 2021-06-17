@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from setuptools import setup, find_packages
-from twocaptcha import __version__
+__version__ = '1.1.0'
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
